@@ -18,12 +18,12 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Azure Login
-       uses: azure/login@v3
-        with:
+      uses: azure/login@v3
+      with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - name: Run Playwright tests
       env:
-      PLAYWRIGHT_SERVICE_URL: ${{ vars.PLAYWRIGHT_SERVICE_URL }}
+       PLAYWRIGHT_SERVICE_URL: ${{ vars.PLAYWRIGHT_SERVICE_URL }}
       run: npx playwright test --config=playwright.service.config.js --workers=2
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
