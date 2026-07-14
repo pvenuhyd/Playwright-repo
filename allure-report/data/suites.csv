@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","100736","endtoend","","2026-07-14","broken","2026-07-14","","endtoend.spec.js","",""
+"","5254","List of elements","","2026-07-14","passed","2026-07-14","","practise.spec.js","",""
+"","21937","UI controls","","2026-07-14","passed","2026-07-14","","practise.spec.js","",""
+"","594","LoginAPI","","2026-07-14","passed","2026-07-14","","APIIntegrationTest.spec.js","",""
+"","7771","Windows Handling","","2026-07-14","passed","2026-07-14","","practise.spec.js","",""
