@@ -2,7 +2,6 @@ name: Playwright Tests
 on:
   schedule:
     - cron: '35 6 * * *'
-      timezone: Asia/Kolkata
 jobs:
   test:
     timeout-minutes: 60
